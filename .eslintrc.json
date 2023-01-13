@@ -22,11 +22,17 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "vitest"
     ],
     "rules": {
         "prettier/prettier": "error",
         "react/jsx-uses-react": "off",
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "vitest/consistent-test-it": ["error", { "fn": "it" }],
+        "vitest/lower-case-title": "error",
+        "vitest/expect-expect": "error",
+        "vitest/no-focused-tests": "error",
+        "vitest/no-skipped-tests": "error"
     }
 }
