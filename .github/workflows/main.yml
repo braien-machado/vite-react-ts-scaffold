@@ -10,9 +10,20 @@ jobs:
     name: Eslint-Check
     steps:
       - name: Fecth project repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       
       - name: ESLint run
         run: |
           npm i
           npm run lint
+  Stylelint-Check:
+    runs-on: ubuntu-latest
+    name: Stylelint-Check
+    steps:
+      - name: Fecth project repository
+        uses: actions/checkout@v3
+      
+      - name: Stylelint run
+        run: |
+          npm i
+          npm run lint:styles
