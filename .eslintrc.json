@@ -25,6 +25,7 @@
         "@typescript-eslint",
         "vitest"
     ],
+    "ignorePatterns": ["cypress/**/*", "cypress*"],
     "rules": {
         "prettier/prettier": "error",
         "react/jsx-uses-react": "off",
