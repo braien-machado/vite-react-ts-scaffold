@@ -17,7 +17,7 @@
     "build-storybook": "build-storybook",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open --config-file=cypress.config.ts"
   },
   "dependencies": {
     "react": "^18.2.0",
