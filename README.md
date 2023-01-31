@@ -21,3 +21,7 @@ Some articles and videos, besides official docs, were used as referencies to bui
 - [Why Vitest Is Better Than Jest](https://www.youtube.com/watch?v=7f-71kYhK00)
 - [Documentando seu front-end com Storybook (projeto real) - PT-BR](https://www.youtube.com/watch?v=VmPbKj3uekE)
 - [Vitest with React Testing Library](https://www.robinwieruch.de/vitest-react-testing-library/)
+
+## Next steps
+
+- Add Dockerfile
